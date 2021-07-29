@@ -1,7 +1,7 @@
 class ShowSecrets < Formula
     desc "CLI to show decoded Kubernetes secrets"
     homepage "https://github.com/lucassha/show-secrets"
-    url "https://github.com/lucassha/show-secrets/archive/v0.1.0.tar.gz"
+    url "https://lucassha-show-secrets-releases.s3.us-west-2.amazonaws.com/releases/v0.0.1"
     
     # to get the latest SHA:
     # find latest release: aws s3api list-objects --bucket lucassha-show-secrets-releases | jq '.Contents[].Key'
